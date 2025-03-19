@@ -1,0 +1,55 @@
+.contact-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 200px;
+}
+
+.contact-details {
+    text-align: center;
+}
+
+.online-inquiry form {
+    display: grid;
+    gap: 10px;
+}
+
+.online-inquiry .row-block {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+}
+
+.online-inquiry input,
+.online-inquiry textarea {
+    padding: 10px;
+    border: 2px solid #ff7777;
+    border-radius: 5px;
+}
+
+.online-inquiry .button-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.online-inquiry .submit-btn {
+    background: #78bb98;
+    border-color: #3b5547;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.online-inquiry .reset-btn {
+    background: #ff7777;
+    border-color: #f13131;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .contact-us {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+}

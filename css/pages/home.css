@@ -1,0 +1,84 @@
+.hero-content button {
+  background-color: #f7a542;
+  border: none;
+  padding: 10px 10px;
+}
+
+@media screen and (max-width: 320px) {
+  .hero-content h1 {
+    font-size: 1rem;
+  }
+
+  .hero-content p {
+    font-size: 0.8rem;
+  }
+
+  .hero-content button {
+    font-size: 0.6rem;
+  }
+}
+
+.what-we-do,
+.About-Us {
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.service-item {
+  border: 1px solid #234477;
+  border-radius: 8px;
+  width: 22%;
+}
+
+.service-item h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #234477;
+  margin: 0;
+  border-radius: 8px 8px 0px 0px;
+  height: 50px;
+}
+
+.service-item p {
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-item {
+    width: 100%;
+  }
+}
+
+.about-content img {
+  float: left;
+  margin: 10px;
+  width: 40%;
+  height: auto;
+}
+
+.about-content p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .about-content img {
+    width: 100%;
+  }
+}
